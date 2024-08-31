@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://n61he6mnwpo2"]
+
+[ext_resource type="PackedScene" uid="uid://jq0wkqxx5670" path="res://single_player.tscn" id="1_rqtqy"]
+[ext_resource type="Script" path="res://MainMenu.gd" id="1_vn2j2"]
+[ext_resource type="Script" path="res://SinglePlayerButton.gd" id="3_1pvqm"]
+
+[node name="MainMenu" type="Node2D"]
+script = ExtResource("1_vn2j2")
+
+[node name="SinglePlayer" parent="." instance=ExtResource("1_rqtqy")]
+
+[node name="Button" type="Button" parent="SinglePlayer"]
+offset_left = 72.0
+offset_top = 63.0
+offset_right = 175.0
+offset_bottom = 94.0
+text = "Singleplayer"
+script = ExtResource("3_1pvqm")
