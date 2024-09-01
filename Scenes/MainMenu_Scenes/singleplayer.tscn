@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://jq0wkqxx5670"]
+
+[ext_resource type="Script" path="res://Scenes/MainMenu_Scenes/puzzle_button.gd" id="1_dyto1"]
+
+[node name="SinglePlayer" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="PuzzleButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 134.0
+offset_top = 50.0
+offset_right = 191.0
+offset_bottom = 81.0
+text = "Puzzle"
+script = ExtResource("1_dyto1")
+
+[node name="SurvivalButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 131.0
+offset_top = 89.0
+offset_right = 201.0
+offset_bottom = 120.0
+text = "Survival"
+
+[node name="RaceToNFruitsButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 144.0
+offset_right = 211.0
+offset_bottom = 175.0
+text = "Race to N fruits"
+
+[node name="StandardButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 121.0
+offset_top = 6.0
+offset_right = 200.0
+offset_bottom = 37.0
+text = "Standard"

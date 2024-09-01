@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://n61he6mnwpo2"]
+
+[ext_resource type="Script" path="res://Scripts/MainMenu_Scripts/singleplayer_button.gd" id="1_mo8fn"]
+[ext_resource type="Script" path="res://Scripts/MainMenu_Scripts/multiplayer_button.gd" id="2_7wh8d"]
+[ext_resource type="Script" path="res://Scripts/MainMenu_Scripts/settings_button.gd" id="3_biq1a"]
+[ext_resource type="Script" path="res://Scripts/MainMenu_Scripts/exit_button.gd" id="4_kawov"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="SingleplayerButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 61.0
+offset_right = 183.0
+offset_bottom = 92.0
+text = "Singleplayer"
+script = ExtResource("1_mo8fn")
+
+[node name="MultiplayerButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 82.0
+offset_top = 100.0
+offset_right = 179.0
+offset_bottom = 131.0
+text = "Multiplayer"
+script = ExtResource("2_7wh8d")
+
+[node name="SettingsButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 93.0
+offset_top = 139.0
+offset_right = 163.0
+offset_bottom = 170.0
+text = "Settings"
+script = ExtResource("3_biq1a")
+
+[node name="ExitButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 110.0
+offset_top = 189.0
+offset_right = 147.0
+offset_bottom = 220.0
+text = "Exit"
+script = ExtResource("4_kawov")

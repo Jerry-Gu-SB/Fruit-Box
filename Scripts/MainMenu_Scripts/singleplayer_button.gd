@@ -6,4 +6,4 @@ func _ready() -> void:
 
 # Define the function that is called when the button is pressed
 func _on_Button_pressed() -> void:
-	print("Hello, World!")
+	get_tree().change_scene_to_file("res://Scenes/MainMenu_Scenes/singleplayer.tscn")

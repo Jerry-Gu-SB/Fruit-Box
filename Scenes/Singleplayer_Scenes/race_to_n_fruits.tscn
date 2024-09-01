@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://bb504wny6boxa"]
+
+[node name="RaceToNFruits" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 0
+offset_left = 131.0
+offset_top = 53.0
+offset_right = 550.0
+offset_bottom = 289.0
+text = "Race to N Fruits"
