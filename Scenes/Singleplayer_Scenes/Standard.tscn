@@ -1,3 +1,20 @@
-[gd_scene format=3 uid="uid://cire1c0h4di6d"]
+[gd_scene load_steps=2 format=3 uid="uid://cire1c0h4di6d"]
 
-[node name="Standard" type="Node2D"]
+[ext_resource type="Texture2D" uid="uid://b2v6i7wgxbb8f" path="res://Assets/circle_blue.svg" id="1_gku7b"]
+
+[node name="Standard" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Grid" type="Panel" parent="."]
+layout_mode = 1
+offset_left = 369.0
+offset_top = 121.0
+offset_right = 574.0
+offset_bottom = 379.0
+scale = Vector2(2.799, 1.49102)
+
+[node name="Sprite2D" type="Sprite2D" parent="Grid"]
+position = Vector2(8.6616, 11.343)
+scale = Vector2(0.0125258, -0.0200436)
+texture = ExtResource("1_gku7b")

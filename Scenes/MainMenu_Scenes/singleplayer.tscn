@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://jq0wkqxx5670"]
+[gd_scene load_steps=3 format=3 uid="uid://jq0wkqxx5670"]
 
 [ext_resource type="Script" path="res://Scenes/MainMenu_Scenes/puzzle_button.gd" id="1_dyto1"]
+[ext_resource type="Script" path="res://Scenes/MainMenu_Scenes/standard_button.gd" id="2_e03ou"]
 
 [node name="SinglePlayer" type="Control"]
 layout_mode = 3
@@ -38,3 +39,4 @@ offset_top = 6.0
 offset_right = 200.0
 offset_bottom = 37.0
 text = "Standard"
+script = ExtResource("2_e03ou")
